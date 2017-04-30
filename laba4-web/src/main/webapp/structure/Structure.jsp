@@ -84,7 +84,7 @@
 %>
     <h1 style="color:#191970">
         <b>Структура мэрии</b>
-        <%--&nbsp&nbsp<a href="/app/finder/Finder.jsp"><img src="images/find.png" width="33" height="33" align = "center" alt="Поиск"></a>--%>
+        &nbsp&nbsp<a href="/app/finder/Finder.jsp"><img src="images/find.png" width="33" height="33" align = "center" alt="Поиск"></a>
     </h1>
 
     <% objectOfStructure.initStructureFromDb(); %>
