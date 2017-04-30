@@ -32,8 +32,6 @@ public class ActionForStructureBean implements SessionBean
 
     public ObjectOfStructure action(String param, int maxId, ObjectOfStructure objectOfStructure)
     {
-
-        //if (param == null){ return;}
     try
     {
         switch (action)

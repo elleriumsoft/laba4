@@ -14,5 +14,5 @@ public interface ActionForStructure extends EJBObject
     void setIdForAction(Integer idForAction) throws RemoteException;
     String getAction() throws RemoteException;
     void setAction(String action) throws RemoteException;
-    void action(String param, int maxId, ObjectOfStructure objectOfStructure) throws RemoteException;
+    ObjectOfStructure action(String param, int maxId, ObjectOfStructure objectOfStructure) throws RemoteException;
 }
